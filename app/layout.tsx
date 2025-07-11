@@ -34,6 +34,9 @@ export default function RootLayout({
           <Link href="/" style={{margin:"10px"}}>Home</Link>
             <Link href="/about" style={{margin:"10px"}}>About</Link>
             <Link href="/contact" style={{margin:"10px"}}>Contact</Link>
+            <Link href="/users" style={{margin:"10px"}}>Users</Link>
+            <Link href="/post" style={{margin:"10px"}}>Post</Link>
+
          </div>
         </nav>
         {children}
