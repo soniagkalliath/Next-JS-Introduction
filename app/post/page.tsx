@@ -20,7 +20,7 @@ export default async function Post(){
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr key={post.id}>
                             <td>{post?.id}</td>
                             <td>{post?.title}</td>
                             <td>{post?.body}</td>

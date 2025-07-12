@@ -4,7 +4,8 @@ const nextConfig: NextConfig = {
   /* config options here */
   images:{
     remotePatterns:[
-      {hostname:"codewithmosh.com"}
+      {hostname:"codewithmosh.com"},
+      {hostname:"pngkey.com"}
     ]
   }
 };
